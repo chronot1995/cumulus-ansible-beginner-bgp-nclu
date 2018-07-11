@@ -1,2 +1,2 @@
-# ansible-training-bgp-nclu
-Two switches configured with BGP using Cumulus' NCLU Ansible module
+# ansible-training-ospf-nclu
+Two switches configured with OSPF using Cumulus' NCLU Ansible module
