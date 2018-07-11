@@ -46,7 +46,7 @@
            add bgp neighbor {{ item }} remote-as external
     with_items:
       - "{{ node[inventory_hostname].routing.bgp.external.peers }}"
-    when: node[inventory_hostname].routing.bgp.external is defined
+    when: node[inventory_hostname].routing.bgp.external.peers is defined
 
   - name: Reload Interfaces
     command: ifreload -a
