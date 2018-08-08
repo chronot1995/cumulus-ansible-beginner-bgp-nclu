@@ -20,7 +20,6 @@
          add interface "{{ item }}"
     with_items:
       - "{{ node[inventory_hostname].ports }}"
-    when: node[inventory_hostname].ports is defined
 
   - name: Deploy BGP Unnumbered configuration
     nclu:
@@ -40,7 +39,6 @@
            add bgp neighbor {{ item }} remote-as external
     with_items:
       - "{{ node[inventory_hostname].routing.bgp.underlay.external.peers }}"
-    when: node[inventory_hostname].routing.bgp.underlay.external.peers is defined
 
   - name: Reload Interfaces
     command: ifreload -a
