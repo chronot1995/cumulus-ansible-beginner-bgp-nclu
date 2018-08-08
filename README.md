@@ -142,7 +142,8 @@ Will be replaced with the following:
 
 The following stanza will replace the install_ansible function:
 
-```install_ansible(){
+```
+install_ansible(){
 echo " ### Installing Ansible... ###"
 apt-get install -qy ansible sshpass libssh-dev python-dev libssl-dev libffi-dev
 sudo pip install pip --upgrade
