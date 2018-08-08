@@ -6,7 +6,7 @@ This is an Ansible demo which configures two Cumulus VX switches with BGP using 
 
 ### Network Diagram:
 
-
+begin-ansible-training-bgp-nclu/documentation/begin-ansible-training-bgp-nclu.png 
 
 ### Initializing the demo environment:
 
