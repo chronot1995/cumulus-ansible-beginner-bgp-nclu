@@ -131,7 +131,7 @@ The following stanza:
     #Install Automation Tools
     puppet=0
     ansible=1
-    ansible_version=2.3.0.0
+    ansible_version=2.3.1.0
 
 Will be replaced with the following:
 
