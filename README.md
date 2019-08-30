@@ -4,7 +4,7 @@
 
   - Cumulus Linux 3.7.8
   - Underlying Topology Converter to 4.7.0
-  - Tested against Vagrant 2.2.5 on Mac and Linux. Windows is not supported
+  - Tested against Vagrant 2.1.5 on Mac and Linux. Windows is not supported
   - Tested against Virtualbox 6.0.10 on Mac 10.14
   - Tested against Libvirt 1.3.1 and Ubuntu 16.04 LTS
 
@@ -30,7 +30,7 @@ Setup Vagrant for the first time on Mojave, MacOS 10.14.6
 
 I had to go through the install process twice to load the proper security extensions (System Preferences > Security & Privacy > General Tab > "Allow" on bottom)
 
-3. Install Vagrant (Tested with 2.2.5)
+3. Install Vagrant (Tested with 2.1.5)
 
     https://www.vagrantup.com
 
@@ -44,7 +44,7 @@ First, make sure that the following is currently running on your machine:
 
     https://docs.cumulusnetworks.com/cumulus-vx/Development-Environments/Vagrant-and-Libvirt-with-KVM-or-QEMU/
 
-3. Download the latest Vagrant, 2.2.5, from the following location:
+3. Download the latest Vagrant, 2.1.5, from the following location:
 
     https://www.vagrantup.com/
 
