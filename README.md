@@ -5,7 +5,7 @@
   - Cumulus Linux 3.7.8
   - Underlying Topology Converter to 4.7.0
   - Tested against Vagrant 2.1.5 on Mac and Linux. Windows is not supported
-  - Tested against Virtualbox 6.0.10 on Mac 10.14
+  - Tested against Virtualbox 5.2.32 on Mac 10.14
   - Tested against Libvirt 1.3.1 and Ubuntu 16.04 LTS
 
 ### Description:
@@ -24,7 +24,7 @@ Setup Vagrant for the first time on Mojave, MacOS 10.14.6
 
     https://brew.sh
 
-2. Install Virtualbox (Tested with 6.0.10)
+2. Install Virtualbox (Tested with 5.2.32)
 
     https://www.virtualbox.org
 

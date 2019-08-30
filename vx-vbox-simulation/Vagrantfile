@@ -11,7 +11,7 @@
 
 
 
-Vagrant.require_version ">= 2.2.5"
+Vagrant.require_version ">= 2.1.5"
 
 # Fix for Older versions of Vagrant to Grab Images from the Correct Location
 unless Vagrant::DEFAULT_SERVER_URL.frozen?
@@ -91,7 +91,7 @@ SCRIPT
 
 Vagrant.configure("2") do |config|
 
-  simid = 1566831964
+  simid = 1567183080
 
   config.vm.provider "virtualbox" do |v|
     v.gui=false
@@ -177,7 +177,7 @@ end
   config.vm.define "oob-mgmt-switch" do |device|
 
     device.vm.hostname = "oob-mgmt-switch"
-    device.vm.box_version = "3.7.8"
+
     device.vm.box = "CumulusCommunity/cumulus-vx"
     device.vm.provider "virtualbox" do |v|
       v.name = "#{simid}_oob-mgmt-switch"
