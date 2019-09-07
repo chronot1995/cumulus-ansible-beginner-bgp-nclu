@@ -156,10 +156,11 @@ B>* 10.2.2.2/32 [20/0] via fe80::4638:39ff:fe00:2, swp1, 00:06:02
 
     https://github.com/CumulusNetworks/topology_converter
 
-3. The following command was used to run the Topology Converter within the vx-simulation directory:
+3. The following command was used to run the Topology Converter within the appropriate vx-sim directory:
 
-    ```./topology_converter.py cumulus-ansible-beginner-bgp-nclu.dot -c```
-
+    ```./topology_converter.py cumulus-segment-routing.dot -c --provider=virtualbox```
+    ```./topology_converter.py cumulus-segment-routing.dot -c --provider=libvirt```
+    
 After the above command is executed, the following configuration changes are necessary:
 
 4. Within ```vx-simulation/helper_scripts/auto_mgmt_network/OOB_Server_Config_auto_mgmt.sh```
